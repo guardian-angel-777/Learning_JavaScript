@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript</title>
+    <style>
+        body{
+            background: #f12711;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        form{
+            max-width: 200px;
+            margin: 40px auto;
+            background: white;
+            padding: 10px;
+        }
+        input{
+            display: block;
+            margin: 10px auto;
+            padding: 4px;
+        }
+        .success{
+            border: 2px solid limegreen;
+        }
+        .error{
+            border: 2px solid crimson;
+        }
+    </style>
+</head>
+<body>
+   <form action="" class="signup-form">
+       <input type="text" id="username" placeholder="username">
+       <input type="submit" value="submit">
+       <div class="feedback"></div>
+   </form>
+    
+    <script src="sandbox.js"></script>
+</body>
+</html>
